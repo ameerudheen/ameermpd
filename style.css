@@ -89,15 +89,20 @@
     font-weight: 600;
     margin: -3px;
 }
-.home .home-content .text-3{
+.home .home-content .text-3,.home .home-content .text-4{
     font-size: 30px;  /* 35 */
     margin: 5px 0;
 }
-.home .home-content .text-3 span{
+.home .home-content .text-3 span,.home .home-content .text-4 span{
     color: crimson;
     font-weight: 500;
 }
-
+.home .home-content .text-4 .fourtabs{
+    tab-size: 8;
+    -moz-tab-size: 8;
+    -o-tab-size: 8;
+    /* white-space: pre-wrap; */
+  }
 /* about section style */
 .about{
     display: flex;
